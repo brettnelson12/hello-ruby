@@ -21,3 +21,9 @@
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
 
+
+D1 = rand(1..6)
+D2 = rand(1..6)
+total = D1 + D2
+puts "#{D1} and #{D2}"
+puts "The total is #{total}"

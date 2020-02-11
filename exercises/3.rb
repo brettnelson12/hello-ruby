@@ -15,3 +15,9 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+my_list = ["Milk", "Eggs", "Bacon", "Coffee"]
+his_list = ["Beer", "Cookies", "Apples", "Coffee"]
+our_list = my_list + his_list
+ordered_list = our_list.sort
+uniq_list = ordered_list.uniq
+puts uniq_list
